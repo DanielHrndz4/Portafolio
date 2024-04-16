@@ -10,7 +10,7 @@ export default function Footer() {
         key={item}
         className="hover:font- ease-in duration-150 cursor-pointer w-[32px]"
       >
-        <img src={`./src/assets/images/icons/${item}.png`} alt={item} />
+        <img src={`./images/icons/${item}.png`} alt={item} />
       </li>
     ));
   };

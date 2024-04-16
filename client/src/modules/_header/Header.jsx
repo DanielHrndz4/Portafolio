@@ -29,7 +29,7 @@ function Header() {
         <div className="w-full h-full flex justify-center items-center">
           <div className="w-[70%]">
             <img
-              src="./src/assets/images/avatar/avatar.png"
+              src="./images/avatar/avatar.png"
               alt="Daniel Hrndz"
               className="min-w-[100%] "
             />
