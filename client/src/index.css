@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face { font-family: "BourtonInline"; src: url("./assets/fonts/Bourton/BourtonInline.ttf");}
+@font-face { font-family: "BourtonLine"; src: url("./assets/fonts/Bourton/BourtonLine.ttf");}
+@font-face { font-family: "BourtonLineBold"; src: url("./assets/fonts/Bourton/BourtonLineBold.ttf");}
+@font-face { font-family: "BourtonLineMedium"; src: url("./assets/fonts/Bourton/BourtonLineMedium.ttf");}
+@font-face { font-family: "BourtonMarquee"; src: url("./assets/fonts/Bourton/BourtonMarquee.ttf");}
+@font-face { font-family: "Raleway"; src: url("./assets/fonts/Raleway/Raleway-VariableFont_wght.ttf");}
+
+html{
+  background-color: #151515;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #13B0F5 , #E70FAA 70%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.background-at{
+  background: linear-gradient(to right, #13B0F5 , #E70FAA );
+}
+
+

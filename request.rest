@@ -1,0 +1,12 @@
+###
+POST http://localhost:3333/api/lan 
+Content-Type: application/json
+
+{
+    "name":"Linux",
+    "image":"not found",
+    "category":"operating systems"
+}
+###
+GET http://localhost:3333/api/lan/operating systems
+Content-Type: application/json
