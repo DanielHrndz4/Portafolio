@@ -26,7 +26,7 @@ export default function FragStack() {
           </h1>
         </div>
       </div>
-    ));
+    )); 
   };
   return (
     <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 gap-y-12 w-3/4 mb-24 mt-24 m-auto">
