@@ -40,7 +40,7 @@ export default function Navbar({site,color}) {
         key={item}
         className="hover:font- ease-in duration-150 cursor-pointer w-[32px]"
       >
-        <img src={`./public/images/icons/${item}.png`} alt={item} />
+        <img src={`./images/icons/${item}.png`} alt={item} />
       </li>
     ));
   };

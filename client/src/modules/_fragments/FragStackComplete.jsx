@@ -16,7 +16,7 @@ export default function FragStackComplete() {
       <div className="w-3/5 m-auto relative group" key={name}>
         <div className="w-full h-full relative hover:blur-[3px]">
           <img
-            src={`./src/assets/images/programming_language/${name}.png`}
+            src={`./images/programming_language/${name}.png`}
             alt={name}
             className="mx-auto w-full object-contain group-hover:blur-[5px] transition easy-in-out duration-300 hover:cursor-pointer" // Para centrar las imágenes
           />

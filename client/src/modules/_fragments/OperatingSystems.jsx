@@ -15,7 +15,7 @@ export default function OperatingSystems() {
       <div className="w-3/5 m-auto relative group" key={index}>
         <div className="w-full h-full relative hover:blur-[3px]">
           <img
-            src={`./src/assets/images/os/${item.name}.png`}
+            src={`./images/os/${item.name}.png`}
             alt={item.name}
             className="mx-auto w-full object-contain group-hover:blur-[5px] transition easy-in-out duration-300 hover:cursor-pointer" // Para centrar las imágenes
           />
