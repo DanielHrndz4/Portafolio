@@ -4,6 +4,7 @@ import axios from "axios";
 export default function AllDataBase() {
   const [database, setDatabase] = useState([]);
   const category = "database managers";
+  
   useEffect(() => {
     axios
       .get(`https://portafolio-1g6k.onrender.com/api/lan/${category}`)
