@@ -6,7 +6,7 @@ export default function OperatingSystems() {
   const category = "operating systems";
   useEffect(() => {
     axios
-      .get(`http://localhost:3333/api/lan/${category}`)
+      .get(`https://portafolio-1g6k.onrender.com/api/lan/${category}`)
       .then((response) => setOpsys(response.data));
   });
 

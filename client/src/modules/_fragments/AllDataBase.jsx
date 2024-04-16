@@ -6,7 +6,7 @@ export default function AllDataBase() {
   const category = "database managers";
   useEffect(() => {
     axios
-      .get(`http://localhost:3333/api/lan/${category}`)
+      .get(`https://portafolio-1g6k.onrender.com/api/lan/${category}`)
       .then((response) => setDatabase(response.data));
   });
 

@@ -7,7 +7,7 @@ export default function FragStackComplete() {
   const category = "programming language";
   useEffect(() => {
     axios
-      .get(`http://localhost:3333/api/lan/${category}`)
+      .get(`https://portafolio-1g6k.onrender.com/api/lan/${category}`)
       .then((response) => setCompleteData(response.data));
   }, []);
 

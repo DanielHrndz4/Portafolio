@@ -6,7 +6,7 @@ export default function FragStack() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3333/api/lan")
+      .get("https://portafolio-1g6k.onrender.com/api/lan")
       .then((response) => setData(response.data));
   }, []);
 
