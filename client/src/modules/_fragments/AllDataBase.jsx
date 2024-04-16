@@ -4,13 +4,12 @@ import axios from "axios";
 export default function AllDataBase() {
   const [database, setDatabase] = useState([]);
   const category = "database managers";
-  
+
   useEffect(() => {
     axios
       .get(`https://portafolio-1g6k.onrender.com/api/lan/${category}`)
       .then((response) => setDatabase(response.data));
   });
-
   const language_db = () => {
     return database.map((item, index) => (
       <div className="w-[80%] m-auto relative group" key={index}>
