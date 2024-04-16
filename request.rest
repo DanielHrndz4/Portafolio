@@ -1,5 +1,5 @@
 ###
-POST http://localhost:3333/api/lan 
+POST https://portafolio-1g6k.onrender.com/api/lan 
 Content-Type: application/json
 
 {
@@ -8,5 +8,5 @@ Content-Type: application/json
     "category":"operating systems"
 }
 ###
-GET http://localhost:3333/api/lan/operating systems
+GET https://portafolio-1g6k.onrender.com/api/lan/operating systems
 Content-Type: application/json
