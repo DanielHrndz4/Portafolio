@@ -32,7 +32,7 @@ export default function Footer() {
   return (
     <div className="w-full py-12">
       <div className="flex flex-row w-80 m-auto pb-6q">
-        <div className="text-center w-9/12 text-[24px] font-bold uppercase flex flex-wrap text-solid_content">
+        <div className="logo text-center w-9/12 text-[24px] font-bold uppercase flex flex-wrap text-solid_content">
           <span className="font-binline text-light_content">{"{"}&nbsp;</span>
           <span>Daniel Hrndz</span>
           <span className="font-binline text-light_content">&nbsp;{"}"}</span>

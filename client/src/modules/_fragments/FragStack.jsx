@@ -29,7 +29,7 @@ export default function FragStack() {
     ));
   };
   return (
-    <div className="grid grid-cols-6 gap-6 gap-y-12 w-3/4 mb-24 mt-24 m-auto">
+    <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 gap-y-12 w-3/4 mb-24 mt-24 m-auto">
       {language()}
     </div>
   );
