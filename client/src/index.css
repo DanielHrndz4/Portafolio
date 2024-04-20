@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-.backtitle{
-    -webkit-text-stroke: 0.5px #b57c00;
+.backtitle {
+  -webkit-text-stroke: 0.5px #b57c00;
+}
+
+.gradient_text {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 5%, rgba(236, 171, 15, 1) 100%);
+  -webkit-background-clip: text;
+  color: transparent;
 }
