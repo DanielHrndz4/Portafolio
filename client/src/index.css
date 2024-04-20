@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.backtitle{
+    -webkit-text-stroke: 0.5px #b57c00;
+}
