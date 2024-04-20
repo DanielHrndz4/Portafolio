@@ -72,7 +72,7 @@ function ProfileMenu() {
               variant="circular"
               size="sm"
               alt="github"
-              src="../../../public/images/icons/github.png"
+              src="/images/icons/github.png"
             />
 
           </Button>
@@ -86,7 +86,7 @@ function ProfileMenu() {
             variant="circular"
             size="sm"
             alt="linkedin"
-            src="../../../public/images/icons/linkedin.png"
+            src="/images/icons/linkedin.png"
           />
 
         </Button>
@@ -99,7 +99,7 @@ function ProfileMenu() {
             variant="circular"
             size="sm"
             alt="instagram"
-            src="../../../public/images/icons/instagram.png"
+            src="/images/icons/instagram.png"
           />
 
         </Button>
