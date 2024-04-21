@@ -15,13 +15,13 @@ export default function AboutMe() {
                     <div className="w-auto rounded-3xl bg-Cprimary h-72 mx-6 my-6">
                         <div className="m-auto flex flex-col min-h-full content-center justify-center text-center">
                         <h1 className="text-7xl"> <strong className="text-Ctext gradient_text">3+</strong> </h1>
-                        <h1 className="text-5xl text-white">Years Experience</h1>
+                        <h1 className="text-5xl text-white">Years <br /> Experience</h1>
                         </div>
                     </div>
                     <div className="w-auto rounded-3xl bg-Cprimary h-72 mx-6 my-6">
                     <div className="m-auto flex flex-col min-h-full content-center justify-center text-center">
                         <h1 className="text-7xl"> <strong className="text-Ctext gradient_text">10+</strong> </h1>
-                        <h1 className="text-5xl text-white">Project Completed</h1>
+                        <h1 className="text-5xl text-white">Project <br /> Completed</h1>
                         </div>
                     </div>
                 </div>
