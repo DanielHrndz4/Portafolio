@@ -5,7 +5,7 @@ import axios from "axios";
 export default function Footer(){
     const [data,getData] = useState([]);
     useEffect(()=>{
-        axios.get('https://portafolio-1g6k.onrender.com/api/lan')
+        axios.get('https://portafolio-1g6k.onrender.com/api/lan/CSS')
         .then((response)=> getData(response.data))
         .catch((error)=> console.error(error))
     },[]);

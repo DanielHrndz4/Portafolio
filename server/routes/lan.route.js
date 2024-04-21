@@ -25,7 +25,7 @@ router.get('/lan/:category', (req, res) => {
         .catch((err) => res.json({ message: err }))
 })
 
-router.get('/lan/:name', (req, res) => {
+router.get('/lan/name/:name', (req, res) => {
     const category = req.params.name;
     lanSchema
         .find({ 'name': category })
