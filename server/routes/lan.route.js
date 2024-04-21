@@ -25,4 +25,12 @@ router.get('/lan/:category', (req, res) => {
         .catch((err) => res.json({ message: err }))
 })
 
+router.get('/lan/:name', (req, res) => {
+    const category = req.params.name;
+    lanSchema
+        .find({ 'name': category })
+        .then((data) => res.json(data))
+        .catch((err) => res.json({ message: err }))
+})
+
 module.exports = router

@@ -3,13 +3,14 @@ import Title from "../_fragments/Title";
 import axios from "axios";
 
 export default function Footer(){
-    const [data,getData] = useState([])
+    const [data,getData] = useState([]);
     useEffect(()=>{
         axios.get('https://portafolio-1g6k.onrender.com/api/lan')
         .then((response)=> getData(response.data))
         .catch((error)=> console.error(error))
-        console.log(data);
     },[]);
+    console.log(data);
+
     return(
         <div className="w-full pt-10 pb-20">
             <Title title="Portfolio Made with"></Title>
