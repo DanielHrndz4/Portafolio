@@ -5,7 +5,7 @@ export default function ILike() {
     <div className='my-auto'>
       <div className='flex flex-row'>
         <div className="w-auto flex flex-row m-2 text-white">
-          <div className="bg-white hover:scale-105 hover:cursor-pointer ease-in-out duration-200 font-bold text-Cbackground p-2 rounded-full content-center text-center">
+          <div className="bg-white hover:scale-105 px-4 hover:cursor-pointer ease-in-out duration-200 font-bold text-Cbackground p-2 rounded-full content-center text-center">
             <img
               src={`/images/aboutme/videogame.png`}
               className="w-[24px] inline mr-2"
@@ -16,7 +16,7 @@ export default function ILike() {
         </div>
 
         <div className="w-auto flex flex-row m-2 text-white">
-          <div className="bg-white hover:scale-105 hover:cursor-pointer ease-in-out duration-200 font-bold text-Cbackground p-2 rounded-full content-center text-center">
+          <div className="bg-white hover:scale-105 px-4 hover:cursor-pointer ease-in-out duration-200 font-bold text-Cbackground p-2 rounded-full content-center text-center">
             <img
               src={`/images/aboutme/music.png`}
               className="w-[24px] inline mr-2"
@@ -29,18 +29,18 @@ export default function ILike() {
 
       <div className='flex flex-row'>
       <div className="w-auto flex flex-row m-2 text-white">
-        <div className="bg-white hover:scale-105 hover:cursor-pointer ease-in-out duration-200 font-bold text-Cbackground p-2 rounded-full content-center text-center">
+        <div className="bg-white hover:scale-105 px-4 hover:cursor-pointer ease-in-out duration-200 font-bold text-Cbackground p-2 rounded-full content-center text-center">
           <img
             src={`/images/aboutme/money.png`}
             className="w-[24px] inline mr-2"
             alt="videogame"
           />
-          Earn Money
+          Money
         </div>
       </div>
 
       <div className="w-auto flex flex-row m-2 text-white">
-        <div className="bg-white hover:scale-105 hover:cursor-pointer ease-in-out duration-200 font-bold text-Cbackground p-2 rounded-full content-center text-center">
+        <div className="bg-white hover:scale-105 px-4 hover:cursor-pointer ease-in-out duration-200 font-bold text-Cbackground p-2 rounded-full content-center text-center">
           <img
             src={`/images/aboutme/movie.png`}
             className="w-[24px] inline mr-2"
