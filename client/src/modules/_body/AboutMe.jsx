@@ -7,7 +7,7 @@ import Button from "../_fragments/Button";
 
 export default function AboutMe() {
   return (
-    <div className="w-[80%] m-auto py-10">
+    <div className="w-[85%] m-auto py-10">
       <Title title="About me"></Title>
       <div className="flex lg:flex-row flex-col">
         <div className="w-full flex flex-col">

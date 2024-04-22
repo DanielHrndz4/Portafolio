@@ -7,7 +7,19 @@
 }
 
 .gradient_text {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 5%, rgba(236, 171, 15, 1) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 5%,
+    rgba(236, 171, 15, 1) 100%
+  );
   -webkit-background-clip: text;
   color: transparent;
+}
+
+.educationbg {
+  background: rgb(247,213,71);
+background: -moz-radial-gradient(circle, rgba(247,213,71,1) 0%, rgba(198,198,198,1) 37%);
+background: -webkit-radial-gradient(circle, rgba(247,213,71,1) 0%, rgba(198,198,198,1) 37%);
+background: radial-gradient(circle, rgba(247,213,71,1) 0%, rgba(198,198,198,1) 37%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f7d547",endColorstr="#c6c6c6",GradientType=1);
 }
