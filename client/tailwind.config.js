@@ -6,6 +6,7 @@ module.exports = withMT({
     extend: {},
     colors: {
       'Ctext': '#ecab0f',
+      'Cbutton': '#140f01',
       'Ccontorn': '#b57c00',
       'Cbackground': '#020202',
       'Cprimary': '#101010',
