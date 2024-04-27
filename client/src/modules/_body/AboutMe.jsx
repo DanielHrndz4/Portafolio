@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Title from "../_fragments/Title";
 import SubTitle from "../_fragments/SubTitle";
 import { Avatar } from "@material-tailwind/react";

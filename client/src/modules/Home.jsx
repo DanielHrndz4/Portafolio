@@ -3,6 +3,8 @@ import Banner from './_fragments/Banner';
 import AboutMe from './_body/AboutMe';
 import Footer from './_footer/Footer';
 import Education from './_body/Education';
+import { motion } from "framer-motion"
+import MyComponent from './_fragments/MyComponent';
 
 export default function Home() {
     return (
