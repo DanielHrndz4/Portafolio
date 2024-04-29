@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import { Reveal } from "react-awesome-reveal";
 import { useInView } from "framer-motion";
 
 function Section({ children }) {
@@ -22,11 +23,11 @@ function Section({ children }) {
 
 export default function Title(props) {
     return (
-        <Section>
+        <Reveal>
             <div className="w-full text-Ctext h-10 relative py-20">
             <span className="absolute inset-0 flex items-center justify-center text-7xl backtitle tracking-wider text-Cbackground">{props.title}</span>
             <span className="absolute inset-0 flex items-center justify-center text-6xl fronttitle text-Ctext font-bold">{props.title}</span>
         </div>
-        </Section>
+        </Reveal>
     );
 }
